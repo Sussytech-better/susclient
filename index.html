@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sus Client - Eaglercraft 1.12</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="game-canvas" width="854" height="480"></canvas>
+  </div>
+
+  <div id="clickgui" class="clickgui hidden">
+    <h2>Sus Client</h2>
+    <div class="module">
+      <label><input type="checkbox" id="espToggle" /> ESP</label>
+    </div>
+    <div class="module">
+      <label><input type="checkbox" id="autoClickerToggle" /> AutoClicker</label>
+    </div>
+    <div class="module">
+      <label><input type="checkbox" id="autoCrystalToggle" /> AutoCrystal</label>
+    </div>
+    <div class="module">
+      <label><input type="checkbox" id="autoHitCrystalToggle" /> AutoHitCrystal</label>
+    </div>
+    <div class="module">
+      <label><input type="checkbox" id="autoDoubleHandToggle" /> AutoDoubleHand</label>
+    </div>
+    <div class="module">
+      <label><input type="checkbox" id="triggerBotToggle" /> TriggerBot</label>
+    </div>
+    <div class="module">
+      <label><input type="checkbox" id="aimAuraToggle" /> AimAura</label>
+    </div>
+    <button id="closeGui">Close</button>
+  </div>
+
+  <button id="openGui" class="open-gui-button">Open Sus Client GUI (Right Shift)</button>
+
+  <script src="client.js"></script>
+</body>
+</html>
