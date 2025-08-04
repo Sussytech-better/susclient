@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: #1a1a1a;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#game-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.clickgui {
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  width: 220px;
+  background: #222;
+  border: 2px solid #666;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 0 10px #000;
+  z-index: 9999;
+}
+
+.clickgui.hidden {
+  display: none;
+}
+
+.module {
+  margin-bottom: 10px;
+}
+
+.open-gui-button {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background: #444;
+  color: #eee;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  user-select: none;
+}
+
+.open-gui-button:hover {
+  background: #666;
+}
